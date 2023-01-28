@@ -1,0 +1,19 @@
+in the first test, linkElement is a variable (present by default) that is being assigned
+the result of the getByText. getbytext is used to find an element in the rendered component
+that contains the specified text 
+
+text is given as arg as reg exp with.  '/.../' syntax is used to create regular expression
+in js and i means insensitive
+
+In the example, the getByText method is used to find an element that contains the text "Made with" and the variable linkElement is assigned the result.
+
+Then we are using expect(linkElement).toBeInTheDocument() to check that linkElement is present in the document.
+
+
+in third test, we use getbytestid to find element with data-testid="..."
+
+note that we have to add data-testid="footer" in actual component in footer to allow
+us to select that element with react testing library and then test its properties, classes
+
+for testing module.css classes we have to give the name of class so if its styles.xyz then
+we have to test for class xyz

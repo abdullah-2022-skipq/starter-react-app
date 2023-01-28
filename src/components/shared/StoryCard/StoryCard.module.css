@@ -1,0 +1,55 @@
+.card {
+  background: #262625;
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 500px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.cardList {
+  background: #262625;
+  padding: 20px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 70%;
+  height: 40%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.card img,
+.cardList img {
+  border-radius: 10px;
+}
+
+.avatarWrapper {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.avatarImage {
+  width: inherit;
+  height: inherit;
+  object-fit: fill; /* maintain aspect ratio */
+}
+
+.mediaWrapper {
+  margin: 15px auto;
+  display: flex;
+  gap: 15px;
+  width: inherit;
+}
+
+.mediaWrapperText {
+  align-items: center;
+}

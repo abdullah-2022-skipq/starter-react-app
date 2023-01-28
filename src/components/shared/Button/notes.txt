@@ -1,0 +1,2 @@
+The component still renders even if you don't pass props and those props are necessary because of the way React handles props.
+In React, when a component is defined, it can have default props defined for it. If a prop is not passed to the component when it's being rendered, it will use the default prop value instead.
